@@ -1,6 +1,6 @@
 [Unit]
 Description=VSR Technologies P25 Trunking (CC)
-After=syslog.target zerotier-one.service network.target
+After=syslog.target network.target
 
 [Service]
 User=root
